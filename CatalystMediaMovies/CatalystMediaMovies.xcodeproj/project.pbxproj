@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1C3E1202D0898B000AA07CC /* YouTubeiOSPlayerHelper in Frameworks */ = {isa = PBXBuildFile; productRef = B1C3E11F2D0898B000AA07CC /* YouTubeiOSPlayerHelper */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B10C42912D02024700E6A47D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B10C42722D02024600E6A47D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B10C42792D02024600E6A47D;
+			remoteInfo = CatalystMediaMovies;
+		};
+		B10C429B2D02024700E6A47D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B10C42722D02024600E6A47D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B10C42792D02024600E6A47D;
+			remoteInfo = CatalystMediaMovies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B10C427A2D02024600E6A47D /* CatalystMediaMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatalystMediaMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10C42902D02024700E6A47D /* CatalystMediaMoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatalystMediaMoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10C429A2D02024700E6A47D /* CatalystMediaMoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatalystMediaMoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B10C42A22D02024700E6A47D /* Exceptions for "CatalystMediaMovies" folder in "CatalystMediaMovies" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B10C42792D02024600E6A47D /* CatalystMediaMovies */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B10C427C2D02024600E6A47D /* CatalystMediaMovies */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B10C42A22D02024700E6A47D /* Exceptions for "CatalystMediaMovies" folder in "CatalystMediaMovies" target */,
+			);
+			path = CatalystMediaMovies;
+			sourceTree = "<group>";
+		};
+		B10C42932D02024700E6A47D /* CatalystMediaMoviesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CatalystMediaMoviesTests;
+			sourceTree = "<group>";
+		};
+		B10C429D2D02024700E6A47D /* CatalystMediaMoviesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CatalystMediaMoviesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B10C42772D02024600E6A47D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C3E1202D0898B000AA07CC /* YouTubeiOSPlayerHelper in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10C428D2D02024700E6A47D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10C42972D02024700E6A47D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B10C42712D02024600E6A47D = {
+			isa = PBXGroup;
+			children = (
+				B10C427C2D02024600E6A47D /* CatalystMediaMovies */,
+				B10C42932D02024700E6A47D /* CatalystMediaMoviesTests */,
+				B10C429D2D02024700E6A47D /* CatalystMediaMoviesUITests */,
+				B10C427B2D02024600E6A47D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B10C427B2D02024600E6A47D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B10C427A2D02024600E6A47D /* CatalystMediaMovies.app */,
+				B10C42902D02024700E6A47D /* CatalystMediaMoviesTests.xctest */,
+				B10C429A2D02024700E6A47D /* CatalystMediaMoviesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B10C42792D02024600E6A47D /* CatalystMediaMovies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B10C42A32D02024700E6A47D /* Build configuration list for PBXNativeTarget "CatalystMediaMovies" */;
+			buildPhases = (
+				B10C42762D02024600E6A47D /* Sources */,
+				B10C42772D02024600E6A47D /* Frameworks */,
+				B10C42782D02024600E6A47D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B10C427C2D02024600E6A47D /* CatalystMediaMovies */,
+			);
+			name = CatalystMediaMovies;
+			packageProductDependencies = (
+				B1C3E11F2D0898B000AA07CC /* YouTubeiOSPlayerHelper */,
+			);
+			productName = CatalystMediaMovies;
+			productReference = B10C427A2D02024600E6A47D /* CatalystMediaMovies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B10C428F2D02024700E6A47D /* CatalystMediaMoviesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B10C42A82D02024700E6A47D /* Build configuration list for PBXNativeTarget "CatalystMediaMoviesTests" */;
+			buildPhases = (
+				B10C428C2D02024700E6A47D /* Sources */,
+				B10C428D2D02024700E6A47D /* Frameworks */,
+				B10C428E2D02024700E6A47D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B10C42922D02024700E6A47D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B10C42932D02024700E6A47D /* CatalystMediaMoviesTests */,
+			);
+			name = CatalystMediaMoviesTests;
+			packageProductDependencies = (
+			);
+			productName = CatalystMediaMoviesTests;
+			productReference = B10C42902D02024700E6A47D /* CatalystMediaMoviesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B10C42992D02024700E6A47D /* CatalystMediaMoviesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B10C42AB2D02024700E6A47D /* Build configuration list for PBXNativeTarget "CatalystMediaMoviesUITests" */;
+			buildPhases = (
+				B10C42962D02024700E6A47D /* Sources */,
+				B10C42972D02024700E6A47D /* Frameworks */,
+				B10C42982D02024700E6A47D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B10C429C2D02024700E6A47D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B10C429D2D02024700E6A47D /* CatalystMediaMoviesUITests */,
+			);
+			name = CatalystMediaMoviesUITests;
+			packageProductDependencies = (
+			);
+			productName = CatalystMediaMoviesUITests;
+			productReference = B10C429A2D02024700E6A47D /* CatalystMediaMoviesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B10C42722D02024600E6A47D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					B10C42792D02024600E6A47D = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					B10C428F2D02024700E6A47D = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = B10C42792D02024600E6A47D;
+					};
+					B10C42992D02024700E6A47D = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = B10C42792D02024600E6A47D;
+					};
+				};
+			};
+			buildConfigurationList = B10C42752D02024600E6A47D /* Build configuration list for PBXProject "CatalystMediaMovies" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B10C42712D02024600E6A47D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B1C3E11E2D0898B000AA07CC /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B10C427B2D02024600E6A47D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B10C42792D02024600E6A47D /* CatalystMediaMovies */,
+				B10C428F2D02024700E6A47D /* CatalystMediaMoviesTests */,
+				B10C42992D02024700E6A47D /* CatalystMediaMoviesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B10C42782D02024600E6A47D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10C428E2D02024700E6A47D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10C42982D02024700E6A47D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B10C42762D02024600E6A47D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10C428C2D02024700E6A47D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10C42962D02024700E6A47D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B10C42922D02024700E6A47D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B10C42792D02024600E6A47D /* CatalystMediaMovies */;
+			targetProxy = B10C42912D02024700E6A47D /* PBXContainerItemProxy */;
+		};
+		B10C429C2D02024700E6A47D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B10C42792D02024600E6A47D /* CatalystMediaMovies */;
+			targetProxy = B10C429B2D02024700E6A47D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B10C42A42D02024700E6A47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CatalystMediaMovies/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shahane.CatalystMediaMovies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B10C42A52D02024700E6A47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CatalystMediaMovies/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shahane.CatalystMediaMovies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B10C42A62D02024700E6A47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B10C42A72D02024700E6A47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B10C42A92D02024700E6A47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shahane.CatalystMediaMoviesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatalystMediaMovies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CatalystMediaMovies";
+			};
+			name = Debug;
+		};
+		B10C42AA2D02024700E6A47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shahane.CatalystMediaMoviesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatalystMediaMovies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CatalystMediaMovies";
+			};
+			name = Release;
+		};
+		B10C42AC2D02024700E6A47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shahane.CatalystMediaMoviesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatalystMediaMovies;
+			};
+			name = Debug;
+		};
+		B10C42AD2D02024700E6A47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shahane.CatalystMediaMoviesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatalystMediaMovies;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B10C42752D02024600E6A47D /* Build configuration list for PBXProject "CatalystMediaMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10C42A62D02024700E6A47D /* Debug */,
+				B10C42A72D02024700E6A47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B10C42A32D02024700E6A47D /* Build configuration list for PBXNativeTarget "CatalystMediaMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10C42A42D02024700E6A47D /* Debug */,
+				B10C42A52D02024700E6A47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B10C42A82D02024700E6A47D /* Build configuration list for PBXNativeTarget "CatalystMediaMoviesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10C42A92D02024700E6A47D /* Debug */,
+				B10C42AA2D02024700E6A47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B10C42AB2D02024700E6A47D /* Build configuration list for PBXNativeTarget "CatalystMediaMoviesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10C42AC2D02024700E6A47D /* Debug */,
+				B10C42AD2D02024700E6A47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B1C3E11E2D0898B000AA07CC /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/youtube/youtube-ios-player-helper.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B1C3E11F2D0898B000AA07CC /* YouTubeiOSPlayerHelper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1C3E11E2D0898B000AA07CC /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */;
+			productName = YouTubeiOSPlayerHelper;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B10C42722D02024600E6A47D /* Project object */;
+}
